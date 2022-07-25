@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "sandbox"
+name = "graph_elliptic_bitcoin"
 version = "0.1.0"
 description = ""
 authors = ["tlc91 <thomas.curran@mistplay.com>"]
@@ -7,12 +7,14 @@ authors = ["tlc91 <thomas.curran@mistplay.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pandas = "^1.4.3"
-matplotlib = "^3.5.2"
 numpy = "^1.23.1"
 seaborn = "^0.11.2"
 torch = "1.11"
-jupyterlab = "^3.4.3"
-networkx = "^2.8.5"
+tqdm = "^4.64.0"
+scikit-learn = "^1.1.1"
+torch_scatter = {url = "https://data.pyg.org/whl/torch-1.11.0+cpu/torch_scatter-2.0.9-cp38-cp38-macosx_10_15_x86_64.whl"}
+torch_sparse = {url = "https://data.pyg.org/whl/torch-1.11.0+cpu/torch_sparse-0.6.14-cp38-cp38-macosx_10_15_x86_64.whl"}
+torch-geometric = "^2.0.4"
 
 [tool.poetry.dev-dependencies]
 

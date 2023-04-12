@@ -1,3 +1,8 @@
+.DS_Store
+*data/
+*.pkl
+*.csv
 .ipynb*
+lightning_logs/
 elliptic_bitcoin_dataset/
 Untitled.ipynb
